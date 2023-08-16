@@ -1,9 +1,24 @@
-/* styles.css */
- .SHOPEME{
-    margin-left: 10px; /* เพิ่มระยะห่างระหว่างไอคอนและข้อความ */
-  }
-  
-  .search-nav {
-    justify-content: flex-end; /* ชิดขวาสุด */
-  }
- 
+.D-item{
+  height: 480px;
+}
+.D-img{
+  height: 100% ;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.b-back{
+  background-color: rgb(151, 146, 146);
+}
+.s-summit{
+  background-color: rgb(11, 152, 51);
+  color: white;
+}
+.font{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+.me{
+  font-size: 20px;
+  margin: 10px;
+}
