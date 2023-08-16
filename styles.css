@@ -1,0 +1,9 @@
+/* styles.css */
+ .SHOPEME{
+    margin-left: 10px; /* เพิ่มระยะห่างระหว่างไอคอนและข้อความ */
+  }
+  
+  .search-nav {
+    justify-content: flex-end; /* ชิดขวาสุด */
+  }
+ 
