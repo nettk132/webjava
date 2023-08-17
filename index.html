@@ -13,6 +13,7 @@
  <link rel="stylesheet" href="styles.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="java.js">
 </head>
 
 <body>
@@ -80,115 +81,134 @@
       <h2>ตัวแทนจำหน่าย SHOPEME อย่างเป็นทางการในประเทศไทย</h2>
       <p>นาฬิกา SHPOEME ผลิตจากวัสดุชั้นดี ประกอบเป็นตัวเรือนด้วยความใส่ใจในทุกรายละเอียด ทุกส่วนประกอบได้รับการออกแบบ พัฒนา และผลิตโดยทีมงานผู้เชี่ยวชาญเพื่อให้ได้มาตรฐานสูงสุด</p>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+   <div class="container">
+    <div class="row">
+      
+      <div class="col-6">
+        <div class="card" id="product1" style="width:40rem;">
+          <img src="https://images.pexels.com/photos/9898268/pexels-photo-9898268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            class="card-img-top" alt="watch">
+          <div class="card-body">
+            <h5 class="card-title">SHOPEME 1908</h5>
+            <p class="card-text">นาฬิกา SHOPEME Perpetual 1908 ถือเป็นนาฬิการุ่นหนึ่งที่เปี่ยมไปด้วยจิตวิญญาณแห่งความท้าทายที่ยังคงยืนยงเหนือกาลเวลา ด้วยความเรียบหรู คลาสสิก หากแต่ยังคง ร่วมสมัย อย่างแท้จริง</p>
+          </div>
+          <div class="d-flex justify-content-around mb-5">
+            <h10>900 บาท</h10>
+            <div class="quantity-control">
+              <button class="quantity-btn minus">-</button>
+              <input type="text" class="quantity-input" value="1">
+              <button class="quantity-btn plus">+</button>
+            </div> 
+            <button type="button" class="btn btn-primary">ซื้อ</button><br>
             </div>
-            <div class="col-4">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+       </div>
+      </div>
+      <div class="col-3">
+        <div class="card" id="product2" style="width:40rem;">
+          <img src="https://images.pexels.com/photos/9878568/pexels-photo-9878568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            class="card-img-top" alt="watch">
+          <div class="card-body">
+            <h5 class="card-title">SHOPEME YACHT-MASTER</h5>
+            <p class="card-text">นาฬิกา Oyster Perpetual Yacht-Master 42 โฉมใหม่ มาพร้อมกับไทเทเนียม RLX ที่บางเบาแต่ทนทาน ถือเป็นเพื่อนรู้ใจสำหรับผู้ใฝ่หาอิสรภาพแห่งการเคลื่อนไหว นาฬิการุ่นนี้ได้หลอมรวมความเป็นเลิศของการผลิตนาฬิกาเข้ากับการแข่งขันกีฬาได้อย่างลงตัว จึงเหมาะอย่างยิ่งสำหรับโลกที่เปี่ยมไปด้วยความกดดันและแสวงหาความสำเร็จในการแข่งขันเรือใบ </p>
+          </div>
+          <div class="d-flex justify-content-around mb-5">
+            <h11>2800 บาท</h11>
+            <div class="quantity-control">
+              <button class="quantity-btn minus">-</button>
+              <input type="text" class="quantity-input" value="1">
+              <button class="quantity-btn plus">+</button>
+            </div> 
+            <button type="button" class="btn btn-primary">ซื้อ</button><br>
             </div>
-            <div class="col-4">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
+       </div>
+      </div>
+      
+  
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="card1" id="product3" style="width:40rem;">
+          <img src="https://images.pexels.com/photos/9878561/pexels-photo-9878561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            class="card-img-top" alt="watch">
+          <div class="card-body">
+            <h5 class="card-title">SHOPEME GMT-MASTER II</h5>
+            <p class="card-text">ให้ผู้สวมใส่สามารถมองเห็นความเป็นไปของเขตเวลาอีกเขตหนึ่ง GMT-Master II จึงเปรียบเสมือนเครื่องมือที่เชื่อมต่อความสัมพันธ์ของเรากับโลกทั้งใบ สำหรับในปัจจุบันมีจำหน่ายทั้งหมดสองรุ่น ได้แก่ รุ่นทองคำ 18 กะรัต และรุ่น yellow Rolesor โดยมาพร้อมขอบหน้าปัด Cerachrom จากเซรามิกคู่สีใหม่อย่างคู่สีเทาและสีดำ</p>
+          </div>
+          <div class="d-flex justify-content-around mb-5">
+            <h12>5600 บาท</h12>
+            <div class="quantity-control">
+              <button class="quantity-btn minus">-</button>
+              <input type="text" class="quantity-input" value="1">
+              <button class="quantity-btn plus">+</button>
+            </div> 
+            <button type="button" class="btn btn-primary">ซื้อ</button><br>
             </div>
-            <div class="col-4">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+       </div>
+      </div>
+      <div class="col-3">
+        <div class="card1" id="product4" style="width:40rem;">
+          <img src="https://images.pexels.com/photos/9898196/pexels-photo-9898196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            class="card-img-top" alt="watch">
+          <div class="card-body">
+            <h5 class="card-title">SHOPEME EXPLORER</h5>
+            <p class="card-text">กลุ่มผลิตภัณฑ์ Explorer ขยายใหญ่ขึ้นด้วยสมาชิกใหม่ล่าสุดอย่างนาฬิการุ่นที่มีขนาด 40 มม. เรือนเวลานี้มาพร้อมกับความคมชัดที่มากขึ้น ทั้งยังมาพร้อมคุณภาพที่ทำให้ชื่อของ Explorer เป็นที่พูดถึงมานับทศวรรษในฐานะนาฬิกาที่เป็นเครื่องมือเรือนแรกของแบรนด์ Explorer 40 โฉมใหม่รังสรรค์ขึ้นจาก Oystersteel ซึ่งเป็นโลหะอัลลอยสูตรเฉพาะของ Rolex ทำให้ได้ตัวเรือนที่เรียบง่าย หากแต่มีความทนทานและทนทานต่อการกัดกร่อน</p>
+          </div>
+          <div class="d-flex justify-content-around mb-5">
+            <h13>800 บาท</h13>
+            <div class="quantity-control">
+              <button class="quantity-btn minus">-</button>
+              <input type="text" class="quantity-input" value="1">
+              <button class="quantity-btn plus">+</button>
+            </div> 
+            <button type="button" class="btn btn-primary">ซื้อ</button><br>
             </div>
-            <div class="col-4">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
+       </div>
+      
     </div>
+  </div>
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h4>ราคารวม: <span id="totalPrice">0 บาท</span></h4>
+    <div class="modal fade" id="scrollableModal" tabindex="-1" aria-labelledby="scrollableModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="scrollableModalLabel">คำเตือน!!!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           
+           ถ้าจะเปลี่ยนราคาก็ต้องรีเว็ปใหม่นะครับขอให้มีความสุขกับการสั่งซื้อของเรา
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+            <button type="button" class="btn btn-primary">ยอมรับ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#scrollableModal">
+      นโยบายคำสั่งซื้อ
+    </button>
+    
+  </div>
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">address</label>
+  </div>      
+     
   </main>
   <footer>
-    <!-- place footer here -->
+    <div class="button-container">
+      <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+      <button type="button" class="btn btn-secondary" id="cancelBtn">Cancel</button>
+    </div>
+    
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
+  
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
@@ -196,6 +216,156 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+   <script>
+  // ใส่สคริปต์ JavaScript เพื่อควบคุมปุ่มเพิ่มและลดจำนวนสินค้า
+  document.addEventListener("DOMContentLoaded", () => {
+    const quantityInputs = document.querySelectorAll(".quantity-input");
+    quantityInputs.forEach(input => {
+      const minusBtn = input.parentNode.querySelector(".minus");
+      const plusBtn = input.parentNode.querySelector(".plus");
+      
+      minusBtn.addEventListener("click", () => {
+        if (input.value > 1) {
+          input.value = parseInt(input.value) - 1;
+        }
+      });
+      
+      plusBtn.addEventListener("click", () => {
+        input.value = parseInt(input.value) + 1;
+      });
+    });
+  });
+</script>
+<script>
+  var totalPrice = 0;
+  
+  var products = document.querySelectorAll('.card');
+  var totalPriceElement = document.getElementById('totalPrice');
+  
+  products.forEach(function(product) {
+    var buyButton = product.querySelector('.btn-primary');
+    var quantityInput = product.querySelector('.quantity-input');
+    var priceElement = product.querySelector('h10');
+  
+    buyButton.addEventListener('click', function() {
+      var quantity = parseInt(quantityInput.value);
+      var price = parseInt(priceElement.textContent.replace(/\D/g, ''));
+  
+      totalPrice += price * quantity;
+  
+      if (totalPrice >= 1000) {
+        var discountedPrice = totalPrice * 0.9; // ลดราคา 10%
+        totalPriceElement.textContent = discountedPrice.toLocaleString() + ' บาท (ลด 10%)';
+      } else {
+        totalPriceElement.textContent = totalPrice.toLocaleString() + ' บาท';
+      }
+  
+      quantityInput.value = 1;
+    });
+  });
+  </script>
+  <script>
+    var totalPrice = 0;
+    
+    var products = document.querySelectorAll('.card');
+    var totalPriceElement = document.getElementById('totalPrice');
+    
+    products.forEach(function(product) {
+      var buyButton = product.querySelector('.btn-primary');
+      var quantityInput = product.querySelector('.quantity-input');
+      var priceElement = product.querySelector('h11');
+    
+      buyButton.addEventListener('click', function() {
+        var quantity = parseInt(quantityInput.value);
+        var price = parseInt(priceElement.textContent.replace(/\D/g, ''));
+    
+        totalPrice += price * quantity;
+    
+        if (totalPrice >= 1000) {
+          var discountedPrice = totalPrice * 0.9; // ลดราคา 10%
+          totalPriceElement.textContent = discountedPrice.toLocaleString() + ' บาท (ลด 10%)';
+        } else {
+          totalPriceElement.textContent = totalPrice.toLocaleString() + ' บาท';
+        }
+    
+        quantityInput.value = 1;
+      });
+    });
+    </script>
+  
+  
+  
+  <script>
+    var totalPrice = 0;
+    
+    var products = document.querySelectorAll('.card1');
+    var totalPriceElement = document.getElementById('totalPrice');
+    
+    products.forEach(function(product) {
+      var buyButton = product.querySelector('.btn-primary');
+      var quantityInput = product.querySelector('.quantity-input');
+      var priceElement = product.querySelector('h12');
+    
+      buyButton.addEventListener('click', function() {
+        var quantity = parseInt(quantityInput.value);
+        var price = parseInt(priceElement.textContent.replace(/\D/g, ''));
+    
+        totalPrice += price * quantity;
+    
+        if (totalPrice >= 1000) {
+          var discountedPrice = totalPrice * 0.9; // ลดราคา 10%
+          totalPriceElement.textContent = discountedPrice.toLocaleString() + ' บาท (ลด 10%)';
+        } else {
+          totalPriceElement.textContent = totalPrice.toLocaleString() + ' บาท';
+        }
+    
+        quantityInput.value = 1;
+      });
+    });
+    </script>
+    
+    <script>
+      var totalPrice = 0;
+      
+      var products = document.querySelectorAll('.card1');
+      var totalPriceElement = document.getElementById('totalPrice');
+      
+      products.forEach(function(product) {
+        var buyButton = product.querySelector('.btn-primary');
+        var quantityInput = product.querySelector('.quantity-input');
+        var priceElement = product.querySelector('h13');
+      
+        buyButton.addEventListener('click', function() {
+          var quantity = parseInt(quantityInput.value);
+          var price = parseInt(priceElement.textContent.replace(/\D/g, ''));
+      
+          totalPrice += price * quantity;
+      
+          if (totalPrice >= 1000) {
+            var discountedPrice = totalPrice * 0.9; // ลดราคา 10%
+            totalPriceElement.textContent = discountedPrice.toLocaleString() + ' บาท (ลด 10%)';
+          } else {
+            totalPriceElement.textContent = totalPrice.toLocaleString() + ' บาท';
+          }
+      
+          quantityInput.value = 1;
+        });
+      });
+      </script>
+    <script>
+      // หากต้องการให้กดปุ่ม Submit รีเว็บ
+      document.getElementById("submitBtn").addEventListener("click", function() {
+        // รีเฟรชหน้าเว็บ
+        location.reload();
+      });
+    
+      // หากต้องการให้กดปุ่ม Cancel รีเว็บ
+      document.getElementById("cancelBtn").addEventListener("click", function() {
+        // รีเฟรชหน้าเว็บ
+        location.reload();
+      });
+    </script>
+
 </body>
 
 </html>
